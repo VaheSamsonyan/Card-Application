@@ -1,0 +1,26 @@
+.card-show-box {
+    border: 1px solid #1ce074;
+    border-radius: 5px;
+    width: 350px;
+    height: 230px;
+    overflow: auto;
+    word-wrap: break-word;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-text {
+    color: rgb(3, 68, 128);
+}
+@media screen and (max-width: 768px) {
+    .card-show-box {
+      margin: 10px;
+        width: 100%;
+        height: auto;
+    }
+}

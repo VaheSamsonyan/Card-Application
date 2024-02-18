@@ -1,0 +1,77 @@
+.card-box {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(50, 241, 50);
+  width: 90%;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-box form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px; 
+}
+
+.card-box label {
+  display: grid;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.card-box input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.card-box input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.card-box .submit-button {
+  background-color: rgb(0, 109, 0);
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  grid-column: 2;
+}
+
+#delete-id {
+  grid-column: 1;
+  background-color: white;
+  color: rgb(0, 109, 0);
+  border: 1px solid rgb(0, 109, 0);
+}
+
+.card-box .submit-button:hover {
+  background-color: #28a745;
+}
+
+
+@media screen and (max-width: 900px) {
+  .card-box {
+    width: 100%;
+    margin: auto;
+  }
+
+  .card-box form {
+    grid-template-columns: 1fr; /
+  }s
+
+  .card-box .submit-button {
+    grid-column: 1; 
+  }
+
+  #delete-id {
+    grid-column: 1;
+    margin-top: 20px; 
+  }
+}

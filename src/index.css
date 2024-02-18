@@ -1,0 +1,17 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+   
+}
+body {
+    position: relative;
+    min-height: 100%;
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6.74rem;
+    margin: 0;
+}
